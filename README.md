@@ -1,2 +1,2 @@
 # threat-intel-report
-Sample malware analysis report for Challenge.bin.sample
+This lab demonstrates the analysis of a ransomware sample linked to Akira Ransomware. The investigation uses hash-based threat intelligence and behavioral analysis with VirusTotal and Hybrid Analysis to identify malicious activity. Observed behavior includes dropping a ransom note and executing a PowerShell command to delete Windows shadow copies, mapped to MITRE ATT&CK T1490 – Inhibit System Recovery. The lab highlights key SOC analyst skills such as malware triage, IoC identification, and structured threat reporting.
